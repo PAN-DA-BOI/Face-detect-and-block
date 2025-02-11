@@ -4,7 +4,7 @@ import mediapipe as mp
 # Initialize MediaPipe Object Detection.
 mp_object_detection = mp.solutions.object_detection
 object_detection = mp_object_detection.ObjectDetection(
-    model_path="path/to/your/model.tflite",  # Path to your custom model if you have one
+    model_path="efficientdet_lite2.tflite",  # Path to your custom model if you have one
     min_detection_confidence=0.5
 )
 
