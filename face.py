@@ -4,7 +4,7 @@ import mediapipe as mp
 mp_face_detection = mp.solutions.face_detection
 
 # Load the image/video
-cap = cv2.VideoCapture(0)  # 0 for webcam
+cap = cv2.VideoCapture(1)  # 0 for webcam
 
 with mp_face_detection.FaceDetection(
     model_selection=0,  # 0 for faster, 1 for more accurate
